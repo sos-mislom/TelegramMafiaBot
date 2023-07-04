@@ -1,5 +1,5 @@
-from mafia.abstract_models.abstract_models import *
-from mafia.db import get_db
+from abstract_models.abstract_models import *
+from db import get_db
 from typing import Optional
 
 

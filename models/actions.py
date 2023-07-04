@@ -1,4 +1,4 @@
-from mafia.abstract_models.abstract_models import Action
+from abstract_models.abstract_models import Action
 from typing import Optional
 from aiogram.filters.callback_data import CallbackData
 

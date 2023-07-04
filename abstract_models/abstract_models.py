@@ -55,9 +55,6 @@ class AbstractModel:
             data = ast.literal_eval(str(self.fields))
             if len(self.fields) > 0:
                 sql += " WHERE " + str(' AND '.join(f"{k}='{data[k]}'" for k in data))
-
-            print(sql, [x for x in cur.execute(sql)])
-
             models = [x for x in cur.execute(sql)]
         return models
 

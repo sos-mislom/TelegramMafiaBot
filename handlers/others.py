@@ -1,7 +1,7 @@
 from aiogram import Router
 
-from mafia.config import Text
-from mafia.filters.filter import *
+from config import Text
+from filters.filter import *
 
 router = Router()
 

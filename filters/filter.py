@@ -2,10 +2,9 @@ from typing import Union, Dict, Any
 from aiogram.filters import BaseFilter
 from aiogram import Bot
 from aiogram.types import Message, Chat
-from levenshtein_distantion import toBanOrNotToBan
 from aiogram.filters.chat_member_updated import CREATOR, ADMINISTRATOR
 import config as c
-from models import User 
+from models.models import User
 
 class TypicalFilter(BaseFilter):
     #for_replace: Union[str, list]
